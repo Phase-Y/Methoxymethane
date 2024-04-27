@@ -1,8 +1,8 @@
-## TemplateDevEnv
+## YemplateDevEnv
 
 Template workspace for modding Minecraft 1.12.2. Licensed under MIT, it is made for public use.
 
-This template currently utilizies **Gradle 8.7** + **[RetroFuturaGradle](https://github.com/GTNewHorizons/RetroFuturaGradle) 1.3.35** + **Forge 14.23.5.2847**.
+This template currently utilizes **Gradle 8.7** + **[RetroFuturaGradle](https://github.com/GTNewHorizons/RetroFuturaGradle) 1.3.35** + **Forge 14.23.5.2847**.
 
 With **coremod and mixin support** that is easy to configure.
 
