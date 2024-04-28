@@ -1,0 +1,19 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "minecraft:cube_all",
+    "textures": {
+      "all": "gregtech:blocks/rendering_error"
+    }
+  },
+  "variants": {
+    "variant": {
+      "insulating_silicon_bricks": {
+        "model": "minecraft:cube_all",
+        "textures": {
+          "all": "methoxymethane:blocks/multiblock/casings/insulating_silicon_bricks"
+        }
+      }
+    }
+  }
+}

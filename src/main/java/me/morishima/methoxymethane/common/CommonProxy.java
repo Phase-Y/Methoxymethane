@@ -1,8 +1,12 @@
 package me.morishima.methoxymethane.common;
 
+import gregtech.api.block.VariantItemBlock;
 import gregtech.api.util.BaseCreativeTab;
 import gregtech.common.items.MetaItems;
 import me.morishima.methoxymethane.api.utils.DMELog;
+import me.morishima.methoxymethane.common.blocks.DMEMetaBlocks;
+import me.morishima.methoxymethane.loaders.OreDictionaryLoader;
+import me.morishima.methoxymethane.loaders.recipes.DMERecipeManager;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
@@ -43,12 +47,14 @@ public class CommonProxy {
     public static void registerBlocks(RegistryEvent.Register<Block> event) {
         DMELog.logger.info("Registering blocks...");
         IForgeRegistry<Block> registry = event.getRegistry();
+        registry.register(DMEMetaBlocks.MULTIBLOCK_BLOCKS);
     }
 
     @SubscribeEvent
     public static void registerItems(RegistryEvent.Register<Item> event) {
         DMELog.logger.info("Registering Items...");
         IForgeRegistry<Item> registry = event.getRegistry();
+        registry.register(createItemBlock(DMEMetaBlocks.MULTIBLOCK_BLOCKS, VariantItemBlock::new));
     }
 
     private static <T extends Block> ItemBlock createItemBlock(T block, Function<T, ItemBlock> producer) {
@@ -60,8 +66,11 @@ public class CommonProxy {
     @SubscribeEvent
     public static void registerRecipes(RegistryEvent.Register<IRecipe> event) {
         DMELog.logger.info("Registering recipes...");
+        OreDictionaryLoader.init();
+        DMERecipeManager.init();
     }
 
     public void preInit() {
+        DMERecipeManager.changeInject();
     }
 }

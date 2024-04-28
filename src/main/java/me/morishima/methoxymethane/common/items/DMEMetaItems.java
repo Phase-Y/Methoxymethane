@@ -3,6 +3,7 @@ package me.morishima.methoxymethane.common.items;
 import gregtech.api.items.metaitem.MetaItem;
 import me.morishima.methoxymethane.common.items.items.DMEMetaItemCircuit;
 import me.morishima.methoxymethane.common.items.items.DMEMetaItemComponent;
+import me.morishima.methoxymethane.common.items.items.DMEMetaItemMisc;
 
 public class DMEMetaItems {
 
@@ -10,12 +11,20 @@ public class DMEMetaItems {
     {
         DMEMetaItemCircuit circuit = new DMEMetaItemCircuit();
         DMEMetaItemComponent component = new DMEMetaItemComponent();
+        DMEMetaItemMisc misc = new DMEMetaItemMisc();
     }
 
     public static void initSubItems()
     {
         DMEMetaItemCircuit.registerItems();
         DMEMetaItemComponent.registerItems();
+        DMEMetaItemMisc.registerItems();
+    }
+
+    public static class Misc {
+        public static MetaItem<?>.MetaValueItem INSULATING_SILICON_BRICK;
+        public static MetaItem<?>.MetaValueItem RAW_INSULATING_SILICON_BRICK;
+        public static MetaItem<?>.MetaValueItem BRICK_BLANK;
     }
 
     public static class Circuits {
@@ -167,6 +176,25 @@ public class DMEMetaItems {
         public static MetaItem<?>.MetaValueItem SUPRACAUSAL_RESISTOR;
         public static MetaItem<?>.MetaValueItem SUPRACAUSAL_TRANSISTOR;
         public static MetaItem<?>.MetaValueItem SUPRACAUSAL_INDUCTOR;
+
+        //Covers
+        public static MetaItem<?>.MetaValueItem ELECTRIC_MOTOR_ULV;
+        public static MetaItem<?>.MetaValueItem ELECTRIC_PISTON_ULV;
+        public static MetaItem<?>.MetaValueItem ELECTRIC_PUMP_ULV;
+        public static MetaItem<?>.MetaValueItem CONVEYOR_MODULE_ULV;
+        public static MetaItem<?>.MetaValueItem ROBOT_ARM_ULV;
+        public static MetaItem<?>.MetaValueItem EMITTER_ULV;
+        public static MetaItem<?>.MetaValueItem SENSOR_ULV;
+        public static MetaItem<?>.MetaValueItem FIELD_GENERATOR_ULV;
+        public static MetaItem<?>.MetaValueItem ELECTRIC_MOTOR_MAX;
+        public static MetaItem<?>.MetaValueItem ELECTRIC_PISTON_MAX;
+        public static MetaItem<?>.MetaValueItem ELECTRIC_PUMP_MAX;
+        public static MetaItem<?>.MetaValueItem CONVEYOR_MODULE_MAX;
+        public static MetaItem<?>.MetaValueItem ROBOT_ARM_MAX;
+        public static MetaItem<?>.MetaValueItem EMITTER_MAX;
+        public static MetaItem<?>.MetaValueItem SENSOR_MAX;
+        public static MetaItem<?>.MetaValueItem FIELD_GENERATOR_MAX;
+
     }
 
 }

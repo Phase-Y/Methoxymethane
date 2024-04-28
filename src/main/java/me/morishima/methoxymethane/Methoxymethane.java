@@ -4,7 +4,9 @@ import gregtech.GTInternalTags;
 import gregtech.common.ConfigHolder;
 import me.morishima.methoxymethane.api.utils.DMELog;
 import me.morishima.methoxymethane.common.CommonProxy;
+import me.morishima.methoxymethane.common.blocks.DMEMetaBlocks;
 import me.morishima.methoxymethane.common.items.DMEMetaItems;
+import me.morishima.methoxymethane.common.metatileentities.DMEMetaTileEntities;
 import me.morishima.methoxymethane.intergrations.gcy.GCYInternalTags;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
@@ -33,12 +35,13 @@ public class Methoxymethane {
     public void onPreInit(@NotNull FMLPreInitializationEvent event) {
         DMELog.init(event.getModLog());
         DMEMetaItems.init();
+        DMEMetaBlocks.init();
+        DMEMetaTileEntities.init();
         proxy.preInit();
     }
 
     @Mod.EventHandler
     public void onConstruction(@NotNull FMLConstructionEvent event) {
         ConfigHolder.machines.highTierContent = true;
-
     }
 }
