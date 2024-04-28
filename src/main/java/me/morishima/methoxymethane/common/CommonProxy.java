@@ -30,6 +30,12 @@ public class CommonProxy {
             false
     );
 
+    public static final BaseCreativeTab TAB_COMPONENT = new BaseCreativeTab(
+            "methoxymethane_component",
+            () -> MetaItems.BASIC_CIRCUIT_BOARD.getStackForm(),
+            false
+    );
+
     public CommonProxy() {
     }
 

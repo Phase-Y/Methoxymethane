@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "methoxymethane:items/metaitems/circuit.suprachronal.ulv"
+    "layer0": "methoxymethane:items/metaitems/circuits/suprachronal/ulv"
   }
 }

@@ -1,60 +1,209 @@
+## Misc
+itemGroup.methoxymethane_circuit=Methoxymethane | Circuits
+
+## Component
+## Boards
+metaitem.board.gooware.name=Kapton™ Board
+metaitem.board.gooware.tooltip=Dupont™ Pyralux® TK Laminate Film
+
+metaitem.board.optical.name=Gallium Nitride Semiconducting Board
+metaitem.board.optical.tooltip=Absolute Ideal Materials for Optoelectronic Devices
+
+metaitem.board.spintronic.name=Carbon Nanotube Magnetic Storage Board
+metaitem.board.spintronic.tooltip=Third Generation Spintronic Technology
+
+metaitem.board.magneto_resonatic.name=Magnetic Induction Circuit Board
+metaitem.board.magneto_resonatic.tooltip=Pretreatment Magneto Resonatic Circuit Board
+
+## Circuit Boards
+metaitem.circuit_board.gooware.name=Super Circuit Board
+metaitem.circuit_board.gooware.tooltip=Revitalization on Circuit Board
+
+metaitem.circuit_board.optical.name=Ultimate Circuit Board
+metaitem.circuit_board.optical.tooltip=Technology Star of the Semiconductor Industry
+
+metaitem.circuit_board.spintronic.name=Infinite Circuit Board
+metaitem.circuit_board.spintronic.tooltip=Best Implementation of Spin Transfer Torque
+
+metaitem.circuit_board.magneto_resonatic.name=Imprinted Resonatic Circuit Board
+metaitem.circuit_board.magneto_resonatic.tooltip=Magneto Resonatic Circuit Board
+
+
+
+## Circuits
+
+# Gooware
+metaitem.circuit.gooware.zpm.name=Gooware Processor
+metaitem.circuit.gooware.zpm.tooltip=Reaction-Diffusion Computation/n§2ZPM-tier Circuit
+metaitem.circuit.gooware.uv.name=Gooware Assembly
+metaitem.circuit.gooware.uv.tooltip=Cyclic Concentration/n§2UV-tier Circuit
+metaitem.circuit.gooware.uhv.name=Gooware Supercomputer
+metaitem.circuit.gooware.uhv.tooltip=Complex Wave Phenomena!/n§2UHV-tier Circuit
+metaitem.circuit.gooware.uev.name=Gooware Mainframe
+metaitem.circuit.gooware.uev.tooltip=Spiraling Colored Waves!/n§2UEV-tier Circuit
+
+# Optical
+metaitem.circuit.optical.uv.name=Optical Processor
+metaitem.circuit.optical.uv.tooltip=Lightspeed Computing/n§6UV-tier Circuit
+metaitem.circuit.optical.uhv.name=Optical Assembly
+metaitem.circuit.optical.uhv.tooltip=With the Power of Lasers!/n§6UHV-tier Circuit
+metaitem.circuit.optical.uev.name=Optical Supercomputer
+metaitem.circuit.optical.uev.tooltip=In the Blink of an Eye/n§6UEV-tier Circuit
+metaitem.circuit.optical.uiv.name=Optical Mainframe
+metaitem.circuit.optical.uiv.tooltip=Could Anything be faster?/n§6UIV-tier Circuit
+
+# Spintronic
+metaitem.circuit.spintronic.uhv.name=Spintronic Processor
+metaitem.circuit.spintronic.uhv.tooltip=Spinning Electrons/n§5UHV-tier Circuit
+metaitem.circuit.spintronic.uev.name=Spintronic Assembly
+metaitem.circuit.spintronic.uev.tooltip=Discrete Quantum Walks/n§5UEV-tier Circuit
+metaitem.circuit.spintronic.uiv.name=Spintronic Supercomputer
+metaitem.circuit.spintronic.uiv.tooltip=Ballistic Spin Filtration/n§5UIV-tier Circuit
+metaitem.circuit.spintronic.uxv.name=Spintronic Mainframe
+metaitem.circuit.spintronic.uxv.tooltip=Spin-Wave Logic!/n§5UXV-tier Circuit
+
+# Cosmic
+metaitem.circuit.cosmic.uev.name=Cosmic Processor
+metaitem.circuit.cosmic.uev.tooltip=Defining the Atom!/n§8UEV-tier Circuit
+metaitem.circuit.cosmic.uiv.name=Cosmic Assembly
+metaitem.circuit.cosmic.uiv.tooltip=Used to play GTNH/n§8UIV-tier Circuit
+metaitem.circuit.cosmic.uxv.name=Cosmic Supercomputer
+metaitem.circuit.cosmic.uxv.tooltip=Peek Into the Omniverse/n§8UXV-tier Circuit
+metaitem.circuit.cosmic.opv.name=Cosmic Mainframe
+metaitem.circuit.cosmic.opv.tooltip=Mindset Dislocation/n§8OpV-tier Circuit
+
+# Supracausal
+metaitem.circuit.supracausal.uiv.name=Supra-Causal Processor
+metaitem.circuit.supracausal.uiv.tooltip=Omniscient/n§fUIV-tier Circuit
+metaitem.circuit.supracausal.uxv.name=Supra-Causal Assembly
+metaitem.circuit.supracausal.uxv.tooltip=Calculation of causes by result/n§fUXV-tier Circuit
+metaitem.circuit.supracausal.opv.name=Supra-Causal Supercomputer
+metaitem.circuit.supracausal.opv.tooltip=Defy the Light Cone/n§fOpV-tier Circuit
+metaitem.circuit.supracausal.max.name=Supra-Causal Mainframe
+metaitem.circuit.supracausal.max.tooltip=Answer in the past/n§fMAX-tier Circuit
+
+# General
 metaitem.circuit.general.ulv.name=General Circuit ULV
+metaitem.circuit.general.ulv.tooltip=Anywhere, Anytime
 metaitem.circuit.general.lv.name=General Circuit LV
+metaitem.circuit.general.lv.tooltip=Anywhere, Anytime
 metaitem.circuit.general.mv.name=General Circuit MV
+metaitem.circuit.general.mv.tooltip=Anywhere, Anytime
 metaitem.circuit.general.hv.name=General Circuit HV
+metaitem.circuit.general.hv.tooltip=Anywhere, Anytime
 metaitem.circuit.general.ev.name=General Circuit EV
+metaitem.circuit.general.ev.tooltip=Anywhere, Anytime
 metaitem.circuit.general.iv.name=General Circuit IV
+metaitem.circuit.general.iv.tooltip=Anywhere, Anytime
 metaitem.circuit.general.luv.name=General Circuit LuV
+metaitem.circuit.general.luv.tooltip=Anywhere, Anytime
 metaitem.circuit.general.zpm.name=General Circuit ZPM
+metaitem.circuit.general.zpm.tooltip=Anywhere, Anytime
 metaitem.circuit.general.uv.name=General Circuit UV
+metaitem.circuit.general.uv.tooltip=Anywhere, Anytime
 metaitem.circuit.general.uhv.name=General Circuit UHV
+metaitem.circuit.general.uhv.tooltip=Anywhere, Anytime
 metaitem.circuit.general.uev.name=General Circuit UEV
+metaitem.circuit.general.uev.tooltip=Anywhere, Anytime
 metaitem.circuit.general.uiv.name=General Circuit UIV
+metaitem.circuit.general.uiv.tooltip=Anywhere, Anytime
 metaitem.circuit.general.uxv.name=General Circuit UXV
+metaitem.circuit.general.uxv.tooltip=Anywhere, Anytime
 metaitem.circuit.general.opv.name=General Circuit OpV
+metaitem.circuit.general.opv.tooltip=Anywhere, Anytime
 metaitem.circuit.general.max.name=General Circuit MAX
-metaitem.circuit.suprachronal.ulv.name=
-metaitem.circuit.suprachronal.lv.name=
-metaitem.circuit.suprachronal.mv.name=
-metaitem.circuit.suprachronal.hv.name=
-metaitem.circuit.suprachronal.ev.name=
-metaitem.circuit.suprachronal.iv.name=
-metaitem.circuit.suprachronal.luv.name=
-metaitem.circuit.suprachronal.zpm.name=
-metaitem.circuit.suprachronal.uv.name=
-metaitem.circuit.suprachronal.uhv.name=
-metaitem.circuit.suprachronal.uev.name=
-metaitem.circuit.suprachronal.uiv.name=
-metaitem.circuit.suprachronal.uxv.name=
-metaitem.circuit.suprachronal.opv.name=
-metaitem.circuit.suprachronal.max.name=
-metaitem.circuit.neuron.ulv.name=
-metaitem.circuit.neuron.lv.name=
-metaitem.circuit.neuron.mv.name=
-metaitem.circuit.neuron.hv.name=
-metaitem.circuit.neuron.ev.name=
-metaitem.circuit.neuron.iv.name=
-metaitem.circuit.neuron.luv.name=
-metaitem.circuit.neuron.zpm.name=
-metaitem.circuit.neuron.uv.name=
-metaitem.circuit.neuron.uhv.name=
-metaitem.circuit.neuron.uev.name=
-metaitem.circuit.neuron.uiv.name=
-metaitem.circuit.neuron.uxv.name=
-metaitem.circuit.neuron.opv.name=
-metaitem.circuit.neuron.max.name=
-metaitem.circuit.magneto.ulv.name=
-metaitem.circuit.magneto.lv.name=
-metaitem.circuit.magneto.mv.name=
-metaitem.circuit.magneto.hv.name=
-metaitem.circuit.magneto.ev.name=
-metaitem.circuit.magneto.iv.name=
-metaitem.circuit.magneto.luv.name=
-metaitem.circuit.magneto.zpm.name=
-metaitem.circuit.magneto.uv.name=
-metaitem.circuit.magneto.uhv.name=
-metaitem.circuit.magneto.uev.name=
-metaitem.circuit.magneto.uiv.name=
-metaitem.circuit.magneto.uxv.name=
-metaitem.circuit.magneto.opv.name=
-metaitem.circuit.magneto.max.name=
+metaitem.circuit.general.max.tooltip=Anywhere, Anytime
+
+# Suprachronal
+metaitem.circuit.suprachronal.ulv.name=Supra-Chronal Primitive Circuit
+metaitem.circuit.suprachronal.ulv.tooltip=§fULV-tier Circuit/n
+metaitem.circuit.suprachronal.lv.name=Supra-Chronal Basic Circuit
+metaitem.circuit.suprachronal.lv.tooltip=§fLV-tier Circuit/n
+metaitem.circuit.suprachronal.mv.name=Supra-Chronal Good Circuit
+metaitem.circuit.suprachronal.mv.tooltip=§fMV-tier Circuit/n
+metaitem.circuit.suprachronal.hv.name=Supra-Chronal Advanced Circuit
+metaitem.circuit.suprachronal.hv.tooltip=§fHV-tier Circuit/n
+metaitem.circuit.suprachronal.ev.name=Supra-Chronal Extreme Circuit
+metaitem.circuit.suprachronal.ev.tooltip=§fEV-tier Circuit/n
+metaitem.circuit.suprachronal.iv.name=Supra-Chronal Elite Circuit
+metaitem.circuit.suprachronal.iv.tooltip=§fIV-tier Circuit/n
+metaitem.circuit.suprachronal.luv.name=Supra-Chronal Master Circuit
+metaitem.circuit.suprachronal.luv.tooltip=§fLuV-tier Circuit/n
+metaitem.circuit.suprachronal.zpm.name=Supra-Chronal Ultimate Circuit
+metaitem.circuit.suprachronal.zpm.tooltip=§fZPM-tier Circuit/n
+metaitem.circuit.suprachronal.uv.name=Supra-Chronal Super Circuit
+metaitem.circuit.suprachronal.uv.tooltip=§fUV-tier Circuit/n
+metaitem.circuit.suprachronal.uhv.name=Supra-Chronal Infinite Circuit
+metaitem.circuit.suprachronal.uhv.tooltip=§fUHV-tier Circuit/n
+metaitem.circuit.suprachronal.uev.name=Supra-Chronal Epic Circuit
+metaitem.circuit.suprachronal.uev.tooltip=§fUEV-tier Circuit/n
+metaitem.circuit.suprachronal.uiv.name=Supra-Chronal Insane Circuit
+metaitem.circuit.suprachronal.uiv.tooltip=§fUIV-tier Circuit/n
+metaitem.circuit.suprachronal.uxv.name=Supra-Chronal Legendary Circuit
+metaitem.circuit.suprachronal.uxv.tooltip=§fUXV-tier Circuit/n
+metaitem.circuit.suprachronal.opv.name=Supra-Chronal Overpowered Circuit
+metaitem.circuit.suprachronal.opv.tooltip=§fOpV-tier Circuit/n
+metaitem.circuit.suprachronal.max.name=Supra-Chronal Maximum Circuit
+metaitem.circuit.suprachronal.max.tooltip=§fMAX-tier Circuit/n
+
+metaitem.circuit.wrap.ulv.name=Wrapped Circuit LV
+metaitem.circuit.wrap.ulv.tooltip=§7For batch assembly in §6Component Assembly Line
+metaitem.circuit.wrap.lv.name=Wrapped Circuit LV
+metaitem.circuit.wrap.lv.tooltip=§7For batch assembly in §6Component Assembly Line
+metaitem.circuit.wrap.mv.name=Wrapped Circuit LV
+metaitem.circuit.wrap.mv.tooltip=§7For batch assembly in §6Component Assembly Line
+metaitem.circuit.wrap.hv.name=Wrapped Circuit LV
+metaitem.circuit.wrap.hv.tooltip=§7For batch assembly in §6Component Assembly Line
+metaitem.circuit.wrap.ev.name=Wrapped Circuit LV
+metaitem.circuit.wrap.ev.tooltip=§7For batch assembly in §6Component Assembly Line
+metaitem.circuit.wrap.iv.name=Wrapped Circuit LV
+metaitem.circuit.wrap.iv.tooltip=§7For batch assembly in §6Component Assembly Line
+metaitem.circuit.wrap.luv.name=Wrapped Circuit LV
+metaitem.circuit.wrap.luv.tooltip=§7For batch assembly in §6Component Assembly Line
+metaitem.circuit.wrap.zpm.name=Wrapped Circuit LV
+metaitem.circuit.wrap.zpm.tooltip=§7For batch assembly in §6Component Assembly Line
+metaitem.circuit.wrap.uv.name=Wrapped Circuit LV
+metaitem.circuit.wrap.uv.tooltip=§7For batch assembly in §6Component Assembly Line
+metaitem.circuit.wrap.uhv.name=Wrapped Circuit LV
+metaitem.circuit.wrap.uhv.tooltip=§7For batch assembly in §6Component Assembly Line
+metaitem.circuit.wrap.uev.name=Wrapped Circuit LV
+metaitem.circuit.wrap.uev.tooltip=§7For batch assembly in §6Component Assembly Line
+metaitem.circuit.wrap.uiv.name=Wrapped Circuit LV
+metaitem.circuit.wrap.uiv.tooltip=§7For batch assembly in §6Component Assembly Line
+metaitem.circuit.wrap.uxv.name=Wrapped Circuit LV
+metaitem.circuit.wrap.uxv.tooltip=§7For batch assembly in §6Component Assembly Line
+metaitem.circuit.wrap.opv.name=Wrapped Circuit LV
+metaitem.circuit.wrap.opv.tooltip=§7For batch assembly in §6Component Assembly Line
+metaitem.circuit.wrap.max.name=Wrapped Circuit LV
+metaitem.circuit.wrap.max.tooltip=§7For batch assembly in §6Component Assembly Line
+
+metaitem.circuit.magneto.ulv.name=Magento Primitive Circuit
+metaitem.circuit.magneto.ulv.tooltip=§fULV-tier Circuit/n
+metaitem.circuit.magneto.lv.name=Magento Basic Circuit
+metaitem.circuit.magneto.lv.tooltip=§fLV-tier Circuit/n
+metaitem.circuit.magneto.mv.name=Magento Good Circuit
+metaitem.circuit.magneto.mv.tooltip=§fMV-tier Circuit/n
+metaitem.circuit.magneto.hv.name=Magento Advanced Circuit
+metaitem.circuit.magneto.hv.tooltip=§fHV-tier Circuit/n
+metaitem.circuit.magneto.ev.name=Magento Extreme Circuit
+metaitem.circuit.magneto.ev.tooltip=§fEV-tier Circuit/n
+metaitem.circuit.magneto.iv.name=Magento Elite Circuit
+metaitem.circuit.magneto.iv.tooltip=§fIV-tier Circuit/n
+metaitem.circuit.magneto.luv.name=Magento Master Circuit
+metaitem.circuit.magneto.luv.tooltip=§fLuV-tier Circuit/n
+metaitem.circuit.magneto.zpm.name=Magento Ultimate Circuit
+metaitem.circuit.magneto.zpm.tooltip=§fZPM-tier Circuit/n
+metaitem.circuit.magneto.uv.name=Magento Super Circuit
+metaitem.circuit.magneto.uv.tooltip=§fUV-tier Circuit/n
+metaitem.circuit.magneto.uhv.name=Magento Infinite Circuit
+metaitem.circuit.magneto.uhv.tooltip=§fUHV-tier Circuit/n
+metaitem.circuit.magneto.uev.name=Magento Epic Circuit
+metaitem.circuit.magneto.uev.tooltip=§fUEV-tier Circuit/n
+metaitem.circuit.magneto.uiv.name=Magento Insane Circuit
+metaitem.circuit.magneto.uiv.tooltip=§fUIV-tier Circuit/n
+metaitem.circuit.magneto.uxv.name=Magento Legendary Circuit
+metaitem.circuit.magneto.uxv.tooltip=§fUXV-tier Circuit/n
+metaitem.circuit.magneto.opv.name=Magento Overpowered Circuit
+metaitem.circuit.magneto.opv.tooltip=§fOpV-tier Circuit/n
+metaitem.circuit.magneto.max.name=Magento Maximum Circuit
+metaitem.circuit.magneto.max.tooltip=§fMAX-tier Circuit/n

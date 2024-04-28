@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "methoxymethane:items/metaitems/circuit.magneto.uv"
+    "layer0": "methoxymethane:items/metaitems/circuits/magneto/uv"
   }
 }

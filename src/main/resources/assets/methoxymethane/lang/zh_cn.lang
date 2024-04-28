@@ -1,60 +1,210 @@
+## Misc
+itemGroup.methoxymethane_circuit=Methoxymethane | 电路
+
+## Component
+## Boards
+metaitem.board.gooware.name=Kapton™电路基板
+metaitem.board.gooware.tooltip=杜邦™ Pyralux® TK层压薄膜
+
+metaitem.board.optical.name=氮化镓半导体材料电路基板
+metaitem.board.optical.tooltip=绝对理想的光电器件材料
+
+metaitem.board.spintronic.name=碳纳米管磁性存储电路基板
+metaitem.board.spintronic.tooltip=第三代自旋电子技术
+
+metaitem.board.magneto_resonatic.name=磁感应电路基板
+metaitem.board.magneto_resonatic.tooltip=预处理磁共振电路板
+
+## Circuit Boards
+
+metaitem.circuit_board.gooware.name=终极电路板
+metaitem.circuit_board.gooware.tooltip=电路板上焕发生机
+
+metaitem.circuit_board.optical.name=究极电路板
+metaitem.circuit_board.optical.tooltip=半导体工业的技术之星
+
+metaitem.circuit_board.spintronic.name=无尽电路板
+metaitem.circuit_board.spintronic.tooltip=自旋转移矩效应的最好实现
+
+metaitem.circuit_board.magneto_resonatic.name=压印磁共振电路板
+metaitem.circuit_board.magneto_resonatic.tooltip=共振紫晶电路板
+
+
+## Circuits
+
+# Gooware
+metaitem.circuit.gooware.zpm.name=化学处理器
+metaitem.circuit.gooware.zpm.tooltip=反应扩散计算/n§2ZPM-等级
+metaitem.circuit.gooware.uv.name=化学组件
+metaitem.circuit.gooware.uv.tooltip=周期性的浓度变化/n§2UV-等级
+metaitem.circuit.gooware.uhv.name=化学超级计算机
+metaitem.circuit.gooware.uhv.tooltip=复杂的波动现象！/n§2UHV-等级
+metaitem.circuit.gooware.uev.name=化学电脑主机
+metaitem.circuit.gooware.uev.tooltip=螺旋彩色波浪！/n§2UEV-等级
+
+# Optical
+metaitem.circuit.optical.uv.name=光学处理器
+metaitem.circuit.optical.uv.tooltip=光速计算/n§6UV-等级
+metaitem.circuit.optical.uhv.name=光学组件
+metaitem.circuit.optical.uhv.tooltip=借助激光的力量！/n§6UHV-等级
+metaitem.circuit.optical.uev.name=光学超级计算机
+metaitem.circuit.optical.uev.tooltip=在一眨眼的功夫/n§6UEV-等级
+metaitem.circuit.optical.uiv.name=光学电脑主机
+metaitem.circuit.optical.uiv.tooltip=有什么可以更快的吗？/n§6UIV-等级
+
+# Spintronic
+metaitem.circuit.spintronic.uhv.name=自旋电子学处理器
+metaitem.circuit.spintronic.uhv.tooltip=自旋电子/n§5UHV-等级
+metaitem.circuit.spintronic.uev.name=自旋电子学组件
+metaitem.circuit.spintronic.uev.tooltip=离散量子漫步/n§5UEV-等级
+metaitem.circuit.spintronic.uiv.name=自旋电子学超级计算机
+metaitem.circuit.spintronic.uiv.tooltip=弹道自旋过滤/n§5UIV-等级
+metaitem.circuit.spintronic.uxv.name=自旋电子学电脑主机
+metaitem.circuit.spintronic.uxv.tooltip=自旋波逻辑！/n§5UXV-等级
+
+
+# Cosmic
+metaitem.circuit.cosmic.uev.name=宇宙处理器
+metaitem.circuit.cosmic.uev.tooltip=定义原子/n§8UEV-等级
+metaitem.circuit.cosmic.uiv.name=宇宙组件
+metaitem.circuit.cosmic.uiv.tooltip=用于游玩GTNH/n§8UIV-等级
+metaitem.circuit.cosmic.uxv.name=宇宙超级计算机
+metaitem.circuit.cosmic.uxv.tooltip=窥探全宇宙/n§8UXV-等级
+metaitem.circuit.cosmic.opv.name=宇宙电脑主机
+metaitem.circuit.cosmic.opv.tooltip=思维混乱/n§8OpV-等级
+
+# Supracausal
+metaitem.circuit.supracausal.uiv.name=超因果处理器
+metaitem.circuit.supracausal.uiv.tooltip=知晓一切/n§fUIV-等级
+metaitem.circuit.supracausal.uxv.name=超因果组件
+metaitem.circuit.supracausal.uxv.tooltip=因果而因/n§fUXV-等级
+metaitem.circuit.supracausal.opv.name=超因果超级计算机
+metaitem.circuit.supracausal.opv.tooltip=藐视光锥/n§fOpV-等级
+metaitem.circuit.supracausal.max.name=超因果电脑主机
+metaitem.circuit.supracausal.max.tooltip=回答于过去/n§fMAX-等级
+
+# General
 metaitem.circuit.general.ulv.name=通用电路 ULV
+metaitem.circuit.general.ulv.tooltip=随时随地，随心所欲
 metaitem.circuit.general.lv.name=通用电路 LV
+metaitem.circuit.general.lv.tooltip=随时随地，随心所欲
 metaitem.circuit.general.mv.name=通用电路 MV
+metaitem.circuit.general.mv.tooltip=随时随地，随心所欲
 metaitem.circuit.general.hv.name=通用电路 HV
+metaitem.circuit.general.hv.tooltip=随时随地，随心所欲
 metaitem.circuit.general.ev.name=通用电路 EV
+metaitem.circuit.general.ev.tooltip=随时随地，随心所欲
 metaitem.circuit.general.iv.name=通用电路 IV
+metaitem.circuit.general.iv.tooltip=随时随地，随心所欲
 metaitem.circuit.general.luv.name=通用电路 LuV
+metaitem.circuit.general.luv.tooltip=随时随地，随心所欲
 metaitem.circuit.general.zpm.name=通用电路 ZPM
+metaitem.circuit.general.zpm.tooltip=随时随地，随心所欲
 metaitem.circuit.general.uv.name=通用电路 UV
+metaitem.circuit.general.uv.tooltip=随时随地，随心所欲
 metaitem.circuit.general.uhv.name=通用电路 UHV
+metaitem.circuit.general.uhv.tooltip=随时随地，随心所欲
 metaitem.circuit.general.uev.name=通用电路 UEV
+metaitem.circuit.general.uev.tooltip=随时随地，随心所欲
 metaitem.circuit.general.uiv.name=通用电路 UIV
+metaitem.circuit.general.uiv.tooltip=随时随地，随心所欲
 metaitem.circuit.general.uxv.name=通用电路 UXV
+metaitem.circuit.general.uxv.tooltip=随时随地，随心所欲
 metaitem.circuit.general.opv.name=通用电路 OpV
+metaitem.circuit.general.opv.tooltip=随时随地，随心所欲
 metaitem.circuit.general.max.name=通用电路 MAX
-metaitem.circuit.suprachronal.ulv.name=
-metaitem.circuit.suprachronal.lv.name=
-metaitem.circuit.suprachronal.mv.name=
-metaitem.circuit.suprachronal.hv.name=
-metaitem.circuit.suprachronal.ev.name=
-metaitem.circuit.suprachronal.iv.name=
-metaitem.circuit.suprachronal.luv.name=
-metaitem.circuit.suprachronal.zpm.name=
-metaitem.circuit.suprachronal.uv.name=
-metaitem.circuit.suprachronal.uhv.name=
-metaitem.circuit.suprachronal.uev.name=
-metaitem.circuit.suprachronal.uiv.name=
-metaitem.circuit.suprachronal.uxv.name=
-metaitem.circuit.suprachronal.opv.name=
-metaitem.circuit.suprachronal.max.name=
-metaitem.circuit.neuron.ulv.name=
-metaitem.circuit.neuron.lv.name=
-metaitem.circuit.neuron.mv.name=
-metaitem.circuit.neuron.hv.name=
-metaitem.circuit.neuron.ev.name=
-metaitem.circuit.neuron.iv.name=
-metaitem.circuit.neuron.luv.name=
-metaitem.circuit.neuron.zpm.name=
-metaitem.circuit.neuron.uv.name=
-metaitem.circuit.neuron.uhv.name=
-metaitem.circuit.neuron.uev.name=
-metaitem.circuit.neuron.uiv.name=
-metaitem.circuit.neuron.uxv.name=
-metaitem.circuit.neuron.opv.name=
-metaitem.circuit.neuron.max.name=
-metaitem.circuit.magneto.ulv.name=
-metaitem.circuit.magneto.lv.name=
-metaitem.circuit.magneto.mv.name=
-metaitem.circuit.magneto.hv.name=
-metaitem.circuit.magneto.ev.name=
-metaitem.circuit.magneto.iv.name=
-metaitem.circuit.magneto.luv.name=
-metaitem.circuit.magneto.zpm.name=
-metaitem.circuit.magneto.uv.name=
-metaitem.circuit.magneto.uhv.name=
-metaitem.circuit.magneto.uev.name=
-metaitem.circuit.magneto.uiv.name=
-metaitem.circuit.magneto.uxv.name=
-metaitem.circuit.magneto.opv.name=
-metaitem.circuit.magneto.max.name=
+metaitem.circuit.general.max.tooltip=随时随地，随心所欲
+
+# Suprachronal
+metaitem.circuit.suprachronal.ulv.name=超时空超低压电路
+metaitem.circuit.suprachronal.ulv.tooltip=§fULV-等级电路/n
+metaitem.circuit.suprachronal.lv.name=超时空低压电路
+metaitem.circuit.suprachronal.lv.tooltip=§fLV-等级电路/n
+metaitem.circuit.suprachronal.mv.name=超时空中压电路
+metaitem.circuit.suprachronal.mv.tooltip=§fMV-等级电路/n
+metaitem.circuit.suprachronal.hv.name=超时空高压电路
+metaitem.circuit.suprachronal.hv.tooltip=§fHV-等级电路/n
+metaitem.circuit.suprachronal.ev.name=超时空特高压电路
+metaitem.circuit.suprachronal.ev.tooltip=§fEV-等级电路/n
+metaitem.circuit.suprachronal.iv.name=超时空强导压电路
+metaitem.circuit.suprachronal.iv.tooltip=§fIV-等级电路/n
+metaitem.circuit.suprachronal.luv.name=超时空剧差压电路
+metaitem.circuit.suprachronal.luv.tooltip=§fLuV-等级电路/n
+metaitem.circuit.suprachronal.zpm.name=超时空零点压电路
+metaitem.circuit.suprachronal.zpm.tooltip=§fZPM-等级电路/n
+metaitem.circuit.suprachronal.uv.name=超时空极限压电路
+metaitem.circuit.suprachronal.uv.tooltip=§fUV-等级电路/n
+metaitem.circuit.suprachronal.uhv.name=超时空极高压电路
+metaitem.circuit.suprachronal.uhv.tooltip=§fUHV-等级电路/n
+metaitem.circuit.suprachronal.uev.name=超时空超极限压电路
+metaitem.circuit.suprachronal.uev.tooltip=§fUEV-等级电路/n
+metaitem.circuit.suprachronal.uiv.name=超时空极强导压电路
+metaitem.circuit.suprachronal.uiv.tooltip=§fUIV-等级电路/n
+metaitem.circuit.suprachronal.uxv.name=超时空极上拓压电路
+metaitem.circuit.suprachronal.uxv.tooltip=§fUXV-等级电路/n
+metaitem.circuit.suprachronal.opv.name=超时空过载压电路
+metaitem.circuit.suprachronal.opv.tooltip=§fOpV-等级电路/n
+metaitem.circuit.suprachronal.max.name=超时空终压电路
+metaitem.circuit.suprachronal.max.tooltip=§fMAX-等级电路/n
+
+metaitem.circuit.wrap.ulv.name=封装电路 ULV
+metaitem.circuit.wrap.ulv.tooltip=用于在§6部件装配线§7中进行批量组装
+metaitem.circuit.wrap.lv.name=封装电路 LV
+metaitem.circuit.wrap.lv.tooltip=用于在§6部件装配线§7中进行批量组装
+metaitem.circuit.wrap.mv.name=封装电路 MV
+metaitem.circuit.wrap.mv.tooltip=用于在§6部件装配线§7中进行批量组装
+metaitem.circuit.wrap.hv.name=封装电路 HV
+metaitem.circuit.wrap.hv.tooltip=用于在§6部件装配线§7中进行批量组装
+metaitem.circuit.wrap.ev.name=封装电路 EV
+metaitem.circuit.wrap.ev.tooltip=用于在§6部件装配线§7中进行批量组装
+metaitem.circuit.wrap.iv.name=封装电路 IV
+metaitem.circuit.wrap.iv.tooltip=用于在§6部件装配线§7中进行批量组装
+metaitem.circuit.wrap.luv.name=封装电路 LuV
+metaitem.circuit.wrap.luv.tooltip=用于在§6部件装配线§7中进行批量组装
+metaitem.circuit.wrap.zpm.name=封装电路 ZPM
+metaitem.circuit.wrap.zpm.tooltip=用于在§6部件装配线§7中进行批量组装
+metaitem.circuit.wrap.uv.name=封装电路 UV
+metaitem.circuit.wrap.uv.tooltip=用于在§6部件装配线§7中进行批量组装
+metaitem.circuit.wrap.uhv.name=封装电路 UHV
+metaitem.circuit.wrap.uhv.tooltip=用于在§6部件装配线§7中进行批量组装
+metaitem.circuit.wrap.uev.name=封装电路 UEV
+metaitem.circuit.wrap.uev.tooltip=用于在§6部件装配线§7中进行批量组装
+metaitem.circuit.wrap.uiv.name=封装电路 UIV
+metaitem.circuit.wrap.uiv.tooltip=用于在§6部件装配线§7中进行批量组装
+metaitem.circuit.wrap.uxv.name=封装电路 UXV
+metaitem.circuit.wrap.uxv.tooltip=用于在§6部件装配线§7中进行批量组装
+metaitem.circuit.wrap.opv.name=封装电路 OpV
+metaitem.circuit.wrap.opv.tooltip=用于在§6部件装配线§7中进行批量组装
+metaitem.circuit.wrap.max.name=封装电路 MAX
+metaitem.circuit.wrap.max.tooltip=用于在§6部件装配线§7中进行批量组装
+
+metaitem.circuit.magneto.ulv.name=磁共振超低压电路
+metaitem.circuit.magneto.ulv.tooltip=§fULV-等级电路/n
+metaitem.circuit.magneto.lv.name=磁共振低压电路
+metaitem.circuit.magneto.lv.tooltip=§fLV-等级电路/n
+metaitem.circuit.magneto.mv.name=磁共振中压电路
+metaitem.circuit.magneto.mv.tooltip=§fMV-等级电路/n
+metaitem.circuit.magneto.hv.name=磁共振高压电路
+metaitem.circuit.magneto.hv.tooltip=§fHV-等级电路/n
+metaitem.circuit.magneto.ev.name=磁共振特高压电路
+metaitem.circuit.magneto.ev.tooltip=§fEV-等级电路/n
+metaitem.circuit.magneto.iv.name=磁共振强导压电路
+metaitem.circuit.magneto.iv.tooltip=§fIV-等级电路/n
+metaitem.circuit.magneto.luv.name=磁共振剧差压电路
+metaitem.circuit.magneto.luv.tooltip=§fLuV-等级电路/n
+metaitem.circuit.magneto.zpm.name=磁共振零点压电路
+metaitem.circuit.magneto.zpm.tooltip=§fZPM-等级电路/n
+metaitem.circuit.magneto.uv.name=磁共振极限压电路
+metaitem.circuit.magneto.uv.tooltip=§fUV-等级电路/n
+metaitem.circuit.magneto.uhv.name=磁共振极高压电路
+metaitem.circuit.magneto.uhv.tooltip=§fUHV-等级电路/n
+metaitem.circuit.magneto.uev.name=磁共振超极限压电路
+metaitem.circuit.magneto.uev.tooltip=§fUEV-等级电路/n
+metaitem.circuit.magneto.uiv.name=磁共振极强导压电路
+metaitem.circuit.magneto.uiv.tooltip=§fUIV-等级电路/n
+metaitem.circuit.magneto.uxv.name=磁共振极上拓压电路
+metaitem.circuit.magneto.uxv.tooltip=§fUXV-等级电路/n
+metaitem.circuit.magneto.opv.name=磁共振过载压电路
+metaitem.circuit.magneto.opv.tooltip=§fOpV-等级电路/n
+metaitem.circuit.magneto.max.name=磁共振终压电路
+metaitem.circuit.magneto.max.tooltip=§fMAX-等级电路/n
