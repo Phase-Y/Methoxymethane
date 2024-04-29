@@ -6,6 +6,9 @@ public class DMERecipeManager {
 
     public static void init() {
         DMEMiscRecipes.init();
+        DMEChemicalEnhanceRecipes.init();
+        DMEMiscRecipes.init();
+        DMERecipeRewrite.init();
     }
 
     public static void changeInject() {

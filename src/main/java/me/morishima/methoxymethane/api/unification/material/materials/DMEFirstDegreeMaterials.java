@@ -1,5 +1,7 @@
 package me.morishima.methoxymethane.api.unification.material.materials;
 
+import gregtech.api.fluids.FluidBuilder;
+import gregtech.api.fluids.store.FluidStorageKeys;
 import gregtech.api.unification.material.Material;
 import gregtech.api.unification.material.properties.BlastProperty;
 import gregtech.api.unification.material.properties.PropertyKey;
@@ -55,6 +57,11 @@ public class DMEFirstDegreeMaterials {
                 .build();
 
         ChromiumGermaniumTelluride.getProperty(PropertyKey.INGOT).setMagneticMaterial(ChromiumGermaniumTellurideMagnetic);
+
+        ImpuritiesNaturalGas = new Material.Builder(getId(), gregtechId("impurities_natural_gas"))
+                .fluid(FluidStorageKeys.GAS, new FluidBuilder().density(10))
+                .color(0xF0F8FF).flags(NO_UNIFICATION)
+                .build();
 
     }
 

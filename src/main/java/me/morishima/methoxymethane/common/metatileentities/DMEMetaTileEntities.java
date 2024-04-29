@@ -8,11 +8,18 @@ import static me.morishima.methoxymethane.api.utils.DMEUtils.dmeId;
 
 public class DMEMetaTileEntities {
 
+    //Single: 21000 - 24999
+
+    //Multiblock: 25000 - 26999
     public static MetaTileEntityPrimitiveAlloyFurnace PRIMITIVE_ALLOY_FURNACE;
+
+    //Misc: 27000 - 28000
 
     public static void init() {
         DMELog.logger.info("Registering MetaTileEntities");
-        PRIMITIVE_ALLOY_FURNACE = registerMetaTileEntity(25001, new MetaTileEntityPrimitiveAlloyFurnace(dmeId("primitive_alloy_furnace")));
+
+        //Multiblocks
+        PRIMITIVE_ALLOY_FURNACE = registerMetaTileEntity(25000, new MetaTileEntityPrimitiveAlloyFurnace(dmeId("primitive_alloy_furnace")));
     }
 
 }

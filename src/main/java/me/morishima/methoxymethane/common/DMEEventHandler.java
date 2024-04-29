@@ -3,6 +3,7 @@ package me.morishima.methoxymethane.common;
 import gregtech.api.unification.material.event.MaterialEvent;
 import gregtech.api.unification.material.event.PostMaterialEvent;
 import me.morishima.methoxymethane.api.unification.material.DMEMaterials;
+import net.minecraftforge.event.terraingen.OreGenEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.eventhandler.EventPriority;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
@@ -25,5 +26,9 @@ public final class DMEEventHandler {
 
     @SubscribeEvent
     public static void registerMaterialsPost(PostMaterialEvent event) {
+    }
+
+    @SubscribeEvent
+    public static void onOreGen(OreGenEvent.Pre event) {
     }
 }

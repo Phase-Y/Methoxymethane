@@ -1,5 +1,22 @@
-## Misc
+## Item Groups
+itemGroup.methoxymethane=Methoxymethane
 itemGroup.methoxymethane_circuit=Methoxymethane | 电路
+itemGroup.methoxymethane_component=Methoxymethane | 部件
+
+## Info
+info.primitive_alloy_furnace.heat=燃料值 : %s
+
+## MTEs
+methoxymethane.machine.primitive_alloy_furnace.name=原始合金炉
+methoxymethane.machine.primitive_alloy_furnace.tooltip=配方电压上限: 8EU/n将固体燃料置于输入槽中来为炉子添加燃料值。
+
+## Blocks
+tile.multiblock_casing.insulating_silicon_bricks.name=隔热硅砖块
+
+## MetaItems
+metaitem.brick.insulating_silicon.raw.name=粗制隔热硅砖
+metaitem.brick.insulating_silicon.name=隔热硅砖
+metaitem.blank.brick.name=砖坯料
 
 ## Component
 ## Boards

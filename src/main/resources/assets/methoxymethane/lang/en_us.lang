@@ -1,5 +1,22 @@
-## Misc
+## Item Groups
+itemGroup.methoxymethane=Methoxymethane
 itemGroup.methoxymethane_circuit=Methoxymethane | Circuits
+itemGroup.methoxymethane_component=Methoxymethane | Components
+
+## Info
+info.primitive_alloy_furnace.heat=Heat: %s
+
+## MTEs
+methoxymethane.machine.primitive_alloy_furnace.name=Primitive Alloy Furnace
+methoxymethane.machine.primitive_alloy_furnace.tooltip=Limit Recipe Voltage: 8EU/nPlacement of fuel in the input tank to add fuel value to the furnace.
+
+## Blocks
+tile.multiblock_casing.insulating_silicon_bricks.name=Insulating Silicon Bricks
+
+## MetaItems
+metaitem.brick.insulating_silicon.raw.name=Raw Insulating Silicon Brick
+metaitem.brick.insulating_silicon.name=Insulating Silicon Brick
+metaitem.blank.brick.name=Brick Blank
 
 ## Component
 ## Boards

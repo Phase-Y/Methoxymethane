@@ -50,4 +50,5 @@ dependencies {
     implementation 'mezz.jei:jei_1.12.2:4.16.1.302'
 
     runtimeOnly 'curse.maven:ctm-267602:2915363'
+    runtimeOnly 'curse.maven:jei-integration-265917:2951731'
 }
