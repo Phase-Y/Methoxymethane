@@ -4,11 +4,15 @@ import gregtech.api.recipes.RecipeMaps;
 
 public class DMERecipeManager {
 
-    public static void init() {
+    public static void initPost() {
         DMEMiscRecipes.init();
         DMEChemicalEnhanceRecipes.init();
         DMEMiscRecipes.init();
         DMERecipeRewrite.init();
+    }
+
+    public static void initPre() {
+        DMECraftingComponent.rewriteCraftingComponent();
     }
 
     public static void changeInject() {

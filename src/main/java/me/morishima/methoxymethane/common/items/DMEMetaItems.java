@@ -22,9 +22,14 @@ public class DMEMetaItems {
     }
 
     public static class Misc {
+        //Misc
         public static MetaItem<?>.MetaValueItem INSULATING_SILICON_BRICK;
         public static MetaItem<?>.MetaValueItem RAW_INSULATING_SILICON_BRICK;
         public static MetaItem<?>.MetaValueItem BRICK_BLANK;
+
+        //Materials
+        public static MetaItem<?>.MetaValueItem RESISTANCE_ALLOY_PLATE;
+        public static MetaItem<?>.MetaValueItem MIXED_ALLOY_PLATE;
 
         //Debug
         public static MetaItem<?>.MetaValueItem STRUCTURE_SELECT_TOOL;

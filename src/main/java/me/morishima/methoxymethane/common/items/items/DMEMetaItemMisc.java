@@ -18,6 +18,10 @@ public class DMEMetaItemMisc extends DMEStandardMetaItem {
         INSULATING_SILICON_BRICK = this.addItem(1, "brick.insulating_silicon");
         BRICK_BLANK = this.addItem(2, "blank.brick");
 
+        //Materials
+        RESISTANCE_ALLOY_PLATE = this.addItem(3, "plate.resistance_alloy");
+        MIXED_ALLOY_PLATE = this.addItem(4, "plate.mixed_alloy");
+
         //Debug
         STRUCTURE_SELECT_TOOL = this.addItem(999, "tool.structure_select").addComponents(StructureSelectToolBehavior.INSTANCE);
     }

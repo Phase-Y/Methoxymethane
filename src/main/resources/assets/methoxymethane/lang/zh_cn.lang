@@ -24,10 +24,18 @@ methoxymethane.machine.primitive_alloy_furnace.tooltip=配方电压上限: 8EU/n
 ## Blocks
 tile.multiblock_casing.insulating_silicon_bricks.name=隔热硅砖块
 
+tile.transparent_casing.reinforced_glass.name=强化玻璃
+tile.transparent_casing.borosilicate_tempered_glass.name=硼硅参杂的钢化玻璃
+tile.transparent_casing.tungsten_steel_ree_glass.name=钨钢化耐极端环境玻璃
+
 ## MetaItems
 metaitem.brick.insulating_silicon.raw.name=粗制隔热硅砖
 metaitem.brick.insulating_silicon.name=隔热硅砖
 metaitem.blank.brick.name=砖坯料
+
+## Materials
+metaitem.plate.resistance_alloy.name=高强合金板
+metaitem.plate.mixed_alloy.name=合金板
 
 metaitem.tool.structure_select.name=结构选择工具
 

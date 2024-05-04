@@ -13,6 +13,7 @@ import net.minecraft.item.ItemBlock;
 import net.minecraft.item.crafting.IRecipe;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.common.eventhandler.EventPriority;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.registries.IForgeRegistry;
 
@@ -73,7 +74,13 @@ public class CommonProxy {
     public static void registerRecipes(RegistryEvent.Register<IRecipe> event) {
         DMELog.logger.info("Registering recipes...");
         OreDictionaryLoader.init();
-        DMERecipeManager.init();
+        DMERecipeManager.initPost();
+    }
+
+    @SubscribeEvent(priority = EventPriority.HIGHEST)
+    public static void registerRecipesHighest(RegistryEvent.Register<IRecipe> event) {
+        DMELog.logger.info("Registering recipes pre...");
+        DMERecipeManager.initPre();
     }
 
     public void preInit() {

@@ -11,7 +11,7 @@
       "insulating_silicon_bricks": {
         "model": "minecraft:cube_all",
         "textures": {
-          "all": "methoxymethane:blocks/multiblock/casings/insulating_silicon_bricks"
+          "all": "methoxymethane:blocks/casings/multiblock/insulating_silicon_bricks"
         }
       }
     }

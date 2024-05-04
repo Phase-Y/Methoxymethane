@@ -26,10 +26,18 @@ methoxymethane.machine.primitive_alloy_furnace.tooltip=Limit Recipe Voltage: 8EU
 ## Blocks
 tile.multiblock_casing.insulating_silicon_bricks.name=Insulating Silicon Bricks
 
+tile.transparent_casing.reinforced_glass.name=Reinforced Glass
+tile.transparent_casing.borosilicate_tempered_glass.name=Borosilicate Tempered Glass
+tile.transparent_casing.tungsten_steel_ree_glass.name=Tungstensteel REE Glass
+
 ## MetaItems
 metaitem.brick.insulating_silicon.raw.name=Raw Insulating Silicon Brick
 metaitem.brick.insulating_silicon.name=Insulating Silicon Brick
 metaitem.blank.brick.name=Brick Blank
+
+## Materials
+metaitem.plate.resistance_alloy.name=Resistance Alloy Plate
+metaitem.plate.mixed_alloy.name=Mixed Alloy Plate
 
 metaitem.tool.structure_select.name=Structure Select Tool
 
