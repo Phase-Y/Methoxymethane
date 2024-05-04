@@ -1,7 +1,7 @@
 package me.morishima.methoxymethane.client;
 
 import me.morishima.methoxymethane.common.CommonProxy;
-import me.morishima.methoxymethane.common.blocks.DMEMetaBlocks;
+import me.morishima.methoxymethane.common.blocks.DMEBlocks;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
@@ -14,7 +14,7 @@ public class ClientProxy extends CommonProxy {
 
     @SubscribeEvent
     public static void registerModels(ModelRegistryEvent event) {
-        DMEMetaBlocks.registerItemModels();
+        DMEBlocks.registerItemModels();
     }
 
     public void preInit() {

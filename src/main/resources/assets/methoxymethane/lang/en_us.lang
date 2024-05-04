@@ -6,6 +6,19 @@ itemGroup.methoxymethane_component=Methoxymethane | Components
 ## Info
 info.primitive_alloy_furnace.heat=Heat: %s
 
+## Materials
+
+# Elements
+gregtech.material.infinitium=Infinitium
+
+gregtech.material.mercury_cadmium_telluride=Mercury Cadmium Telluride
+gregtech.material.chromium_germanium_telluride=Chromium Germanium Telluride
+gregtech.material.chromium_germanium_telluride_magnetic=Magnetic Chromium Germanium Telluride
+gregtech.material.phenolic_resin=Phenolic Resin
+gregtech.material.impurities_natural_gas=Impurities Natural Gas
+gregtech.material.ethyl_acetate=Ethyl Acetate
+gregtech.material.dimethyl_phosphate=Dimethyl Phosphate
+
 ## MTEs
 methoxymethane.machine.primitive_alloy_furnace.name=Primitive Alloy Furnace
 methoxymethane.machine.primitive_alloy_furnace.tooltip=Limit Recipe Voltage: 8EU/nPlacement of fuel in the input tank to add fuel value to the furnace.
@@ -17,6 +30,8 @@ tile.multiblock_casing.insulating_silicon_bricks.name=Insulating Silicon Bricks
 metaitem.brick.insulating_silicon.raw.name=Raw Insulating Silicon Brick
 metaitem.brick.insulating_silicon.name=Insulating Silicon Brick
 metaitem.blank.brick.name=Brick Blank
+
+metaitem.tool.structure_select.name=Structure Select Tool
 
 ## Component
 ## Boards
@@ -45,6 +60,69 @@ metaitem.circuit_board.spintronic.tooltip=Best Implementation of Spin Transfer T
 metaitem.circuit_board.magneto_resonatic.name=Imprinted Resonatic Circuit Board
 metaitem.circuit_board.magneto_resonatic.tooltip=Magneto Resonatic Circuit Board
 
+## Covers
+metaitem.cover.electric_motor.ulv.name=§8ULV§r Electric Motor
+metaitem.cover.electric_piston.ulv.name=§8ULV§r Electric Piston
+metaitem.cover.electric_pump.ulv.name=§8ULV§r Electric Pump
+metaitem.cover.conveyor_module.ulv.name=§8ULV§r Conveyor Module
+metaitem.cover.robot_arm.ulv.name=§8ULV§r Robot Arm
+metaitem.cover.emitter.ulv.name=§8ULV§r Emitter
+metaitem.cover.sensor.ulv.name=§8ULV§r Sensor
+metaitem.cover.field_generator.ulv.name=§8ULV§r Field Generator
+
+metaitem.cover.electric_motor.max.name=§c§lMAX§r Electric Motor
+metaitem.cover.electric_piston.max.name=§c§lMAX§r Electric Piston
+metaitem.cover.electric_pump.max.name=§c§lMAX§r Electric Pump
+metaitem.cover.conveyor_module.max.name=§c§lMAX§r Conveyor Module
+metaitem.cover.robot_arm.max.name=§c§lMAX§r Robot Arm
+metaitem.cover.emitter.max.name=§c§lMAX§r Emitter
+metaitem.cover.sensor.max.name=§c§lMAX§r Sensor
+metaitem.cover.field_generator.max.name=§c§lMAX§r Field Generator
+
+## SMDs
+metaitem.component.optical_smd.transistor.name=Phototransisto
+metaitem.component.optical_smd.transistor.tooltip=Optical Transistor
+metaitem.component.optical_smd.resistor.name=Photoresistor
+metaitem.component.optical_smd.resistor.tooltip=Optical Resistor
+metaitem.component.optical_smd.capacitor.name=Optical Integrator
+metaitem.component.optical_smd.capacitor.tooltip=Optical Capacitor
+metaitem.component.optical_smd.diode.name=Optical Isolator
+metaitem.component.optical_smd.diode.tooltip=Optical Diode
+metaitem.component.optical_smd.inductor.name=Optical Polarizer
+metaitem.component.optical_smd.inductor.tooltip=Optical Inductor
+
+metaitem.component.spintronic_smd.transistor.name=MOSFET
+metaitem.component.spintronic_smd.transistor.tooltip=Spintronic Transistor
+metaitem.component.spintronic_smd.resistor.name=Magnetoresistor
+metaitem.component.spintronic_smd.resistor.tooltip=Spintronic Resistor
+metaitem.component.spintronic_smd.capacitor.name=Ultracapacitor
+metaitem.component.spintronic_smd.capacitor.tooltip=Spintronic Capacitor
+metaitem.component.spintronic_smd.diode.name=Schottky Diode
+metaitem.component.spintronic_smd.diode.tooltip=Spintronic Diode
+metaitem.component.spintronic_smd.inductor.name=Spin Polarizer
+metaitem.component.spintronic_smd.inductor.tooltip=Spintronic Inductor
+
+metaitem.component.cosmic_smd.transistor.name=Crystal Information Provider
+metaitem.component.cosmic_smd.transistor.tooltip=Cosmic Transistor
+metaitem.component.cosmic_smd.resistor.name=Microinterstellar Material Information Wall
+metaitem.component.cosmic_smd.resistor.tooltip=Cosmic Resistor
+metaitem.component.cosmic_smd.capacitor.name=Holographic Energy Charge
+metaitem.component.cosmic_smd.capacitor.tooltip=Cosmic Capacitor
+metaitem.component.cosmic_smd.diode.name=Cosmic Ion Diode
+metaitem.component.cosmic_smd.diode.tooltip=Cosmic Diode
+metaitem.component.cosmic_smd.inductor.name=Zenith Polarizer
+metaitem.component.cosmic_smd.inductor.tooltip=Cosmic Inductor
+
+metaitem.component.supracausal_smd.transistor.name=Kaluza-Klein Extradimensional Dilator FET
+metaitem.component.supracausal_smd.transistor.tooltip=Supracausal Transistor
+metaitem.component.supracausal_smd.resistor.name=Non-anomalous Quantum Main Constraint Generator
+metaitem.component.supracausal_smd.resistor.tooltip=Supracausal Resistor
+metaitem.component.supracausal_smd.capacitor.name=Energy-Momentum-Stress Tensor Memory
+metaitem.component.supracausal_smd.capacitor.tooltip=Supracausal Capacitor
+metaitem.component.supracausal_smd.diode.name=Spin Network Carrier Diode
+metaitem.component.supracausal_smd.diode.tooltip=Supracausal Diode
+metaitem.component.supracausal_smd.inductor.name=Supersymmetric Conformal Polarizer
+metaitem.component.supracausal_smd.inductor.tooltip=Supracausal Inductor
 
 
 ## Circuits

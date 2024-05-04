@@ -1,6 +1,7 @@
-package me.morishima.methoxymethane.common.blocks.block;
+package me.morishima.methoxymethane.common.blocks.metablock;
 
 import gregtech.api.block.VariantBlock;
+import me.morishima.methoxymethane.common.CommonProxy;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.util.IStringSerializable;
@@ -17,6 +18,7 @@ public class DMEBlockMultiblock extends VariantBlock<DMEBlockMultiblock.BlockTyp
         setSoundType(SoundType.METAL);
         setHarvestLevel("pickaxe", 1);
         setDefaultState(getState(BlockType.INSULATING_SILICON_BRICKS));
+        setCreativeTab(CommonProxy.TAB_DME);
     }
 
     public enum BlockType implements IStringSerializable {

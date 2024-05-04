@@ -4,7 +4,7 @@ import gregtech.GTInternalTags;
 import gregtech.common.ConfigHolder;
 import me.morishima.methoxymethane.api.utils.DMELog;
 import me.morishima.methoxymethane.common.CommonProxy;
-import me.morishima.methoxymethane.common.blocks.DMEMetaBlocks;
+import me.morishima.methoxymethane.common.blocks.DMEBlocks;
 import me.morishima.methoxymethane.common.items.DMEMetaItems;
 import me.morishima.methoxymethane.common.metatileentities.DMEMetaTileEntities;
 import me.morishima.methoxymethane.intergrations.gcy.GCYInternalTags;
@@ -35,7 +35,7 @@ public class Methoxymethane {
     public void onPreInit(@NotNull FMLPreInitializationEvent event) {
         DMELog.init(event.getModLog());
         DMEMetaItems.init();
-        DMEMetaBlocks.init();
+        DMEBlocks.init();
         DMEMetaTileEntities.init();
         proxy.preInit();
     }

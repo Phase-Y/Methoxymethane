@@ -28,8 +28,8 @@ import gregtech.client.renderer.cclop.LightMapOperation;
 import gregtech.client.renderer.texture.Textures;
 import gregtech.client.utils.BloomEffectUtil;
 import gregtech.common.ConfigHolder;
-import me.morishima.methoxymethane.common.blocks.DMEMetaBlocks;
-import me.morishima.methoxymethane.common.blocks.block.DMEBlockMultiblock;
+import me.morishima.methoxymethane.common.blocks.DMEBlocks;
+import me.morishima.methoxymethane.common.blocks.metablock.DMEBlockMultiblock;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
@@ -78,7 +78,7 @@ public class MetaTileEntityPrimitiveAlloyFurnace extends RecipeMapPrimitiveMulti
                 .aisle("XXX", "XXX", "XXX", "XXX")
                 .aisle("XXX", "X&X", "X#X", "X#X")
                 .aisle("XXX", "XYX", "XXX", "XXX")
-                .where('X', states(DMEMetaBlocks.MULTIBLOCK_BLOCKS.getState(DMEBlockMultiblock.BlockType.INSULATING_SILICON_BRICKS)))
+                .where('X', states(DMEBlocks.MULTIBLOCK_BLOCKS.getState(DMEBlockMultiblock.BlockType.INSULATING_SILICON_BRICKS)))
                 .where('#', air())
                 .where('&', air().or(SNOW_PREDICATE))
                 .where('Y', selfPredicate())

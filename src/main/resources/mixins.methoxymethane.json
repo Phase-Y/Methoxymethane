@@ -1,13 +1,13 @@
 {
-	"package": "me.morishima.methoxymethane.mixin",
-	"required": true,
-	"refmap": "mixins.${mod_id}.refmap.json",
-	"target": "@env(DEFAULT)",
-	"minVersion": "0.8.5",
-	"compatibilityLevel": "JAVA_8",
-	"mixins": [
-		"gregicality.MixinGCYMMultiblockRecipeLogic"
-	],
-	"server": [],
-	"client": []
+  "package": "me.morishima.methoxymethane.mixin",
+  "required": true,
+  "refmap": "mixins.${mod_id}.refmap.json",
+  "target": "@env(DEFAULT)",
+  "minVersion": "0.8.5",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "gregicality.MixinGCYMMultiblockRecipeLogic",
+  ],
+  "server": [],
+  "client": []
 }

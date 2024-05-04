@@ -6,6 +6,17 @@ itemGroup.methoxymethane_component=Methoxymethane | 部件
 ## Info
 info.primitive_alloy_furnace.heat=燃料值 : %s
 
+## Materials
+gregtech.material.infinitium=无尽
+
+gregtech.material.mercury_cadmium_telluride=碲化汞镉
+gregtech.material.chromium_germanium_telluride=碲化铬锗
+gregtech.material.chromium_germanium_telluride_magnetic=磁化碲化铬锗
+gregtech.material.phenolic_resin=酚醛树脂
+gregtech.material.impurities_natural_gas=含杂天然气
+gregtech.material.ethyl_acetate=乙酸乙酯
+gregtech.material.dimethyl_phosphate=磷酸二甲酯
+
 ## MTEs
 methoxymethane.machine.primitive_alloy_furnace.name=原始合金炉
 methoxymethane.machine.primitive_alloy_furnace.tooltip=配方电压上限: 8EU/n将固体燃料置于输入槽中来为炉子添加燃料值。
@@ -17,6 +28,8 @@ tile.multiblock_casing.insulating_silicon_bricks.name=隔热硅砖块
 metaitem.brick.insulating_silicon.raw.name=粗制隔热硅砖
 metaitem.brick.insulating_silicon.name=隔热硅砖
 metaitem.blank.brick.name=砖坯料
+
+metaitem.tool.structure_select.name=结构选择工具
 
 ## Component
 ## Boards
@@ -45,6 +58,70 @@ metaitem.circuit_board.spintronic.tooltip=自旋转移矩效应的最好实现
 
 metaitem.circuit_board.magneto_resonatic.name=压印磁共振电路板
 metaitem.circuit_board.magneto_resonatic.tooltip=共振紫晶电路板
+
+## Covers
+metaitem.cover.electric_motor.ulv.name=电动马达（§8ULV§r）
+metaitem.cover.electric_piston.ulv.name=电力活塞（§8ULV§r）
+metaitem.cover.electric_pump.ulv.name=电动泵（§8ULV§r）
+metaitem.cover.conveyor_module.ulv.name=传送带（§8ULV§r）
+metaitem.cover.robot_arm.ulv.name=机械臂（§8ULV§r）
+metaitem.cover.emitter.ulv.name=发射器（§8ULV§r）
+metaitem.cover.sensor.ulv.name=传感器（§8ULV§r）
+metaitem.cover.field_generator.ulv.name=力场发生器（§8ULV§r）
+
+metaitem.cover.electric_motor.max.name=电动马达（§c§lMAX§r）
+metaitem.cover.electric_piston.max.name=电力活塞（§c§lMAX§r）
+metaitem.cover.electric_pump.max.name=电动泵（§c§lMAX§r）
+metaitem.cover.conveyor_module.max.name=传送带（§c§lMAX§r）
+metaitem.cover.robot_arm.max.name=机械臂（§c§lMAX§r）
+metaitem.cover.emitter.max.name=发射器（§c§lMAX§r）
+metaitem.cover.sensor.max.name=传感器（§c§lMAX§r）
+metaitem.cover.field_generator.max.name=力场发生器（§c§lMAX§r）
+
+## SMDs
+metaitem.component.optical_smd.transistor.name=光学晶体管
+metaitem.component.optical_smd.transistor.tooltip=光电子晶体管
+metaitem.component.optical_smd.resistor.name=光敏电阻
+metaitem.component.optical_smd.resistor.tooltip=光电子电阻
+metaitem.component.optical_smd.capacitor.name=光学整合器
+metaitem.component.optical_smd.capacitor.tooltip=光电子电容
+metaitem.component.optical_smd.diode.name=光频隔离器
+metaitem.component.optical_smd.diode.tooltip=光电子二极管
+metaitem.component.optical_smd.inductor.name=光学偏振器
+metaitem.component.optical_smd.inductor.tooltip=光电子电感
+
+metaitem.component.spintronic_smd.transistor.name=自旋金属-氧半场效晶体管
+metaitem.component.spintronic_smd.transistor.tooltip=自旋电子晶体管
+metaitem.component.spintronic_smd.resistor.name=磁阻器
+metaitem.component.spintronic_smd.resistor.tooltip=自旋电子电阻
+metaitem.component.spintronic_smd.capacitor.name=超级电容
+metaitem.component.spintronic_smd.capacitor.tooltip=自旋电子电容
+metaitem.component.spintronic_smd.diode.name=肖氏势垒二极管
+metaitem.component.spintronic_smd.diode.tooltip=自旋电子二极管
+metaitem.component.spintronic_smd.inductor.name=自旋偏振器
+metaitem.component.spintronic_smd.inductor.tooltip=自旋电子电感
+
+metaitem.component.cosmic_smd.transistor.name=晶体信息载荷
+metaitem.component.cosmic_smd.transistor.tooltip=寰宇晶体管
+metaitem.component.cosmic_smd.resistor.name=微型星际物质信息壁
+metaitem.component.cosmic_smd.resistor.tooltip=寰宇电阻
+metaitem.component.cosmic_smd.capacitor.name=全息能量荷
+metaitem.component.cosmic_smd.capacitor.tooltip=寰宇电容
+metaitem.component.cosmic_smd.diode.name=宇宙离子极管
+metaitem.component.cosmic_smd.diode.tooltip=寰宇二极管
+metaitem.component.cosmic_smd.inductor.name=天顶星偏振器
+metaitem.component.cosmic_smd.inductor.tooltip=寰宇电感
+
+metaitem.component.supracausal_smd.transistor.name=卡鲁扎-克莱因额外维胀子场效应管
+metaitem.component.supracausal_smd.transistor.tooltip=超因果晶体管
+metaitem.component.supracausal_smd.resistor.name=非反常量子主约束生成器
+metaitem.component.supracausal_smd.resistor.tooltip=超因果电阻
+metaitem.component.supracausal_smd.capacitor.name=能量-动量-应力张量存储器
+metaitem.component.supracausal_smd.capacitor.tooltip=超因果电容
+metaitem.component.supracausal_smd.diode.name=自旋网络载波极管
+metaitem.component.supracausal_smd.diode.tooltip=超因果二极管
+metaitem.component.supracausal_smd.inductor.name=超对称共形偏振器
+metaitem.component.supracausal_smd.inductor.tooltip=超因果电感
 
 
 ## Circuits

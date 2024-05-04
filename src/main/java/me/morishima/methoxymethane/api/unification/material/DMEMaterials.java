@@ -13,6 +13,7 @@ public class DMEMaterials {
      */
 
     //Element: 20000 - 21000
+    public static Material Infinitium;
 
 
     //First Degree: 21000 - 22000

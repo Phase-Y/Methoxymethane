@@ -25,6 +25,9 @@ public class DMEMetaItems {
         public static MetaItem<?>.MetaValueItem INSULATING_SILICON_BRICK;
         public static MetaItem<?>.MetaValueItem RAW_INSULATING_SILICON_BRICK;
         public static MetaItem<?>.MetaValueItem BRICK_BLANK;
+
+        //Debug
+        public static MetaItem<?>.MetaValueItem STRUCTURE_SELECT_TOOL;
     }
 
     public static class Circuits {
