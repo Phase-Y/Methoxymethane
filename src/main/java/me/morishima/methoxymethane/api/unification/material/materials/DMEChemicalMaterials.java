@@ -6,8 +6,8 @@ import gregtech.api.unification.material.Material;
 import gregtech.api.unification.stack.MaterialStack;
 
 import static gregtech.api.unification.material.Materials.*;
-import static gregtech.api.util.GTUtility.gregtechId;
 import static me.morishima.methoxymethane.api.unification.material.DMEMaterials.*;
+import static me.morishima.methoxymethane.api.utils.DMEUtils.dmeId;
 
 public class DMEChemicalMaterials {
 
@@ -15,18 +15,18 @@ public class DMEChemicalMaterials {
     private static final int endId = startId + 3000;
 
     public static void register() {
-        EthylAcetate = new Material.Builder(getId(), gregtechId("ethyl_acetate"))
+        EthylAcetate = new Material.Builder(getId(), dmeId("ethyl_acetate"))
                 .color(0xFFFFFF)
                 .fluid(FluidStorageKeys.LIQUID, new FluidBuilder())
                 .components(new MaterialStack(Carbon, 4), new MaterialStack(Hydrogen, 8), new MaterialStack(Oxygen, 2))
                 .build().setFormula("CH3COOCH2CH3", true);
 
-        DimethylPhosphate = new Material.Builder(getId(), gregtechId("dimethyl_phosphate"))
+        DimethylPhosphate = new Material.Builder(getId(), dmeId("dimethyl_phosphate"))
                 .components(new MaterialStack(Carbon, 2), new MaterialStack(Hydrogen, 7), new MaterialStack(Oxygen, 4), new MaterialStack(Phosphorus, 1))
                 .color(0xCC9933).fluid(FluidStorageKeys.LIQUID, new FluidBuilder())
                 .build().setFormula("(CH3O)2PO2H", true);
 
-        PhenolicResin = new Material.Builder(getId(), gregtechId("phenolic_resin"))
+        PhenolicResin = new Material.Builder(getId(), dmeId("phenolic_resin"))
                 .polymer().color(0xBB6C20).fluid()
                 .build();
     }

@@ -1,4 +1,4 @@
-package me.morishima.methoxymethane.loaders.recipes;
+package me.morishima.methoxymethane.loaders.recipes.chemical;
 
 
 import gregtech.api.unification.material.Materials;

@@ -3,6 +3,7 @@ package me.morishima.methoxymethane.common;
 import gregtech.api.unification.material.event.MaterialEvent;
 import gregtech.api.unification.material.event.PostMaterialEvent;
 import me.morishima.methoxymethane.api.unification.material.DMEMaterials;
+import me.morishima.methoxymethane.api.unification.material.properties.DMEMaterialFlagAdditions;
 import me.morishima.methoxymethane.common.blocks.DMEBlocks;
 import net.minecraft.init.Blocks;
 import net.minecraft.util.math.BlockPos;
@@ -27,6 +28,7 @@ public final class DMEEventHandler {
     )
     public static void registerMaterials(MaterialEvent event) {
         DMEMaterials.init();
+        DMEMaterialFlagAdditions.init();
     }
 
     @SubscribeEvent

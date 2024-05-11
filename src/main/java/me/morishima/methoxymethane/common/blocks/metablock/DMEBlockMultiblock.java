@@ -22,7 +22,8 @@ public class DMEBlockMultiblock extends VariantBlock<DMEBlockMultiblock.BlockTyp
     }
 
     public enum BlockType implements IStringSerializable {
-        INSULATING_SILICON_BRICKS("insulating_silicon_bricks");
+        INSULATING_SILICON_BRICKS("insulating_silicon_bricks"),
+        DIELECTRIC_RUBBER_CASING("dielectric_rubber_casing");
         private final String name;
         BlockType(String name) {
             this.name = name;

@@ -9,22 +9,34 @@ info.primitive_alloy_furnace.heat=Heat: %s
 ## Materials
 
 # Elements
-gregtech.material.infinitium=Infinitium
+methoxymethane.material.infinitium=Infinitium
+methoxymethane.material.cosmic_neutronium=Cosmic Neutronium
+methoxymethane.material.vibranium=Vibranium
 
-gregtech.material.mercury_cadmium_telluride=Mercury Cadmium Telluride
-gregtech.material.chromium_germanium_telluride=Chromium Germanium Telluride
-gregtech.material.chromium_germanium_telluride_magnetic=Magnetic Chromium Germanium Telluride
-gregtech.material.phenolic_resin=Phenolic Resin
-gregtech.material.impurities_natural_gas=Impurities Natural Gas
-gregtech.material.ethyl_acetate=Ethyl Acetate
-gregtech.material.dimethyl_phosphate=Dimethyl Phosphate
+methoxymethane.material.mercury_cadmium_telluride=Mercury Cadmium Telluride
+methoxymethane.material.chromium_germanium_telluride=Chromium Germanium Telluride
+methoxymethane.material.chromium_germanium_telluride_magnetic=Magnetic Chromium Germanium Telluride
+methoxymethane.material.impurities_natural_gas=Impurities Natural Gas
+
+methoxymethane.material.tungsten_steel_plated_osmiridium=Tungstensteel Plated Osmiridium
+methoxymethane.material.plating_liquid=Foil Plating Liquid
+
+methoxymethane.material.resistant_extreme_environmental_alloy=Resistant Extreme Environmental Alloy
+
+methoxymethane.material.phenolic_resin=Phenolic Resin
+methoxymethane.material.ethyl_acetate=Ethyl Acetate
+methoxymethane.material.dimethyl_phosphate=Dimethyl Phosphate
 
 ## MTEs
 methoxymethane.machine.primitive_alloy_furnace.name=Primitive Alloy Furnace
 methoxymethane.machine.primitive_alloy_furnace.tooltip=Limit Recipe Voltage: 8EU/nPlacement of fuel in the input tank to add fuel value to the furnace.
 
+methoxymethane.machine.electric_foil_plating_factory.name=Electric Foil Plating Factory
+recipemap.platter.name=Foil Platter
+
 ## Blocks
 tile.multiblock_casing.insulating_silicon_bricks.name=Insulating Silicon Bricks
+tile.multiblock_casing.dielectric_rubber_casing.name=Dielectric Rubber Casing
 
 tile.transparent_casing.reinforced_glass.name=Reinforced Glass
 tile.transparent_casing.borosilicate_tempered_glass.name=Borosilicate Tempered Glass

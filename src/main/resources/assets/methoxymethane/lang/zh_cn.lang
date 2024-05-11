@@ -7,22 +7,34 @@ itemGroup.methoxymethane_component=Methoxymethane | 部件
 info.primitive_alloy_furnace.heat=燃料值 : %s
 
 ## Materials
-gregtech.material.infinitium=无尽
+methoxymethane.material.infinitium=无尽
+methoxymethane.material.cosmic_neutronium=宇宙中子态素
+methoxymethane.material.vibranium=振金
 
-gregtech.material.mercury_cadmium_telluride=碲化汞镉
-gregtech.material.chromium_germanium_telluride=碲化铬锗
-gregtech.material.chromium_germanium_telluride_magnetic=磁化碲化铬锗
-gregtech.material.phenolic_resin=酚醛树脂
-gregtech.material.impurities_natural_gas=含杂天然气
-gregtech.material.ethyl_acetate=乙酸乙酯
-gregtech.material.dimethyl_phosphate=磷酸二甲酯
+methoxymethane.material.mercury_cadmium_telluride=碲化汞镉
+methoxymethane.material.chromium_germanium_telluride=碲化铬锗
+methoxymethane.material.chromium_germanium_telluride_magnetic=磁化碲化铬锗
+methoxymethane.material.impurities_natural_gas=含杂天然气
+
+methoxymethane.material.tungsten_steel_plated_osmiridium=镀钨钢铱锇合金
+methoxymethane.material.plating_liquid=镀箔液
+
+methoxymethane.material.resistant_extreme_environmental_alloy=耐极端环境合金
+
+methoxymethane.material.phenolic_resin=酚醛树脂
+methoxymethane.material.ethyl_acetate=乙酸乙酯
+methoxymethane.material.dimethyl_phosphate=磷酸二甲酯
 
 ## MTEs
 methoxymethane.machine.primitive_alloy_furnace.name=原始合金炉
 methoxymethane.machine.primitive_alloy_furnace.tooltip=配方电压上限: 8EU/n将固体燃料置于输入槽中来为炉子添加燃料值。
 
+methoxymethane.machine.electric_foil_plating_factory.name=电力镀箔工厂
+recipemap.platter.name=镀箔
+
 ## Blocks
 tile.multiblock_casing.insulating_silicon_bricks.name=隔热硅砖块
+tile.multiblock_casing.dielectric_rubber_casing.name=绝缘橡胶外壳
 
 tile.transparent_casing.reinforced_glass.name=强化玻璃
 tile.transparent_casing.borosilicate_tempered_glass.name=硼硅参杂的钢化玻璃

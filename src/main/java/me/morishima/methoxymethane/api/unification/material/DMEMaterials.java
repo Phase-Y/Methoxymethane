@@ -14,6 +14,8 @@ public class DMEMaterials {
 
     //Element: 20000 - 21000
     public static Material Infinitium;
+    public static Material CosmicNeutronium;
+    public static Material Vibranium;
 
 
     //First Degree: 21000 - 22000
@@ -21,6 +23,9 @@ public class DMEMaterials {
     public static Material ChromiumGermaniumTelluride;
     public static Material ChromiumGermaniumTellurideMagnetic;
     public static Material ImpuritiesNaturalGas;
+    public static Material TungstensteelPlatedOsmiridium;
+    public static Material PlatingLiquid;
+    public static Material ResistantExtremeEnvironmentalAlloy;
 
     //Chemical: 27000 - 30000
     public static Material EthylAcetate;

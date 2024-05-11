@@ -11,19 +11,19 @@
       "reinforced_glass": {
         "model": "minecraft:cube_all",
         "textures": {
-          "all": "methoxymethane:blocks/casings/transparent/reinforced_glass"
+          "all": "gregtech:blocks/casings/transparent/reinforced_glass"
         }
       },
       "borosilicate_tempered_glass": {
         "model": "minecraft:cube_all",
         "textures": {
-          "all": "methoxymethane:blocks/casings/transparent/borosilicate_tempered_glass"
+          "all": "gregtech:blocks/casings/transparent/borosilicate_tempered_glass"
         }
       },
       "tungsten_steel_ree_glass": {
         "model": "minecraft:cube_all",
         "textures": {
-          "all": "methoxymethane:blocks/casings/transparent/tungsten_steel_ree_glass"
+          "all": "gregtech:blocks/casings/transparent/tungsten_steel_ree_glass"
         }
       }
     }

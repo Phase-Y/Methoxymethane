@@ -11,7 +11,13 @@
       "insulating_silicon_bricks": {
         "model": "minecraft:cube_all",
         "textures": {
-          "all": "methoxymethane:blocks/casings/multiblock/insulating_silicon_bricks"
+          "all": "gregtech:blocks/casings/multiblock/insulating_silicon_bricks"
+        }
+      },
+      "dielectric_rubber_casing": {
+        "model": "minecraft:cube_all",
+        "textures": {
+          "all": "gregtech:blocks/casings/multiblock/dielectric_rubber_casing"
         }
       }
     }
